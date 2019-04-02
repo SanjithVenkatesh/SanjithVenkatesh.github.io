@@ -84,3 +84,17 @@ img.profile{
     padding-right: 900px;
     border-radius: 50%;
 }
+
+img.leadershipPic{
+    width: 75px;
+    height:75px;
+    padding: 50px;
+}
+
+.leadershipHalves{
+    display: flex;
+}
+
+.leadership{
+    padding-top: 50px;
+}
