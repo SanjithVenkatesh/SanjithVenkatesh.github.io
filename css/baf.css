@@ -1,0 +1,230 @@
+/* baf.css: -*- CSS -*-  Overrides for the template.*/
+
+.baf .section-subheading {
+    font-size: 3vh; line-height: 3.8vh;
+    max-width: 80vh;
+    margin-left: auto; margin-right: auto;
+    font-size: 120%;
+}
+.baf .section-sub-subheading {
+    font-size: 80%;
+}
+
+.baf .team-member.baf img { border-color: lightblue; }
+.baf .team-member.opus img { border-color: goldenrod; }
+.baf .team-member.other img { border-color: darkkhaki; }
+
+.baf .small-bottom-margin { margin-bottom: 20px; }
+.baf .team-member ul.social-buttons { display: none; }
+.baf #team .tooltip-inner { width: 400px; max-width: 400px; padding-top: 10px; padding-bottom: 10px; }
+
+/* https://stackoverflow.com/questions/31939153/how-to-split-up-bootstrap-row-width-equally-between-columns */
+.baf #team .row {
+    display: flex;
+    justify-content: space-between;
+    /* Adding for cross browser support */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+/*
+ *  Controls nav bar assets
+ */
+
+/* navbar when at top */
+.baf .navbar-custom {
+  background-color: black;
+  border-color: transparent;
+}
+
+/* for menu button when window is very thin */
+.navbar-custom .navbar-toggle {
+  background-color: black;
+  border-color: #1bd3ff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #1bd3ff;
+}
+
+/* navbar affixed to screen when scrolling */
+.baf nav a.navbar-brand img { height: 40px; width: auto; margin-bottom: -15px; }
+.baf nav.affix-top a.navbar-brand img { margin-top: -15px; }
+.baf nav.affix a.navbar-brand img { margin-top: -10px; }
+.baf nav.affix { background-color: black; height: auto; }
+
+.baf .navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  /*background-color: #1bd3ff;*/
+  color: white; /*font color */
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+/* buttons when scrolling */
+
+.navbar-custom .navbar-nav > .active > a {
+  color: white;
+  background-color: #1bd3ff;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #1bd3ff;
+}
+
+section h2.section-heading {
+  font-size: 240%;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "Lato"
+}
+section h3.section-heading {
+  font-size: 200%;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #f6c459;
+  font-family: "Lato"
+}
+section h3.section-subheading {
+    all: initial;
+    * {
+        all: unset;
+      }
+  font-size: 200%;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 600;
+  margin-bottom: 75px;
+  color: white;
+  text-align: center;
+}
+section h3.accelerate {
+  color: #1bd3ff;
+  font-size: 220%;
+}
+
+h4 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f6c459;
+}
+
+h4.industry {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+/* Opening Section */
+
+.baf header {
+  background-image: none; height: 100%;
+}
+.baf header > .container-fluid {
+    position: absolute; left:0; right:0; top:0; bottom:0;
+}
+
+.baf header .blurred-background {
+    position: absolute; left:0; right:0; top:0; bottom:0;
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-filter: blur(3px) brightness(75%);
+    -moz-filter: blur(3px) brightness(75%);
+    -o-filter: blur(3px) brightness(75%);
+    -ms-filter: blur(3px) brightness(75%);
+    filter: blur(3px) brightness(75%);
+}
+.baf .darker.fullscreen { height: 100%; position: absolute; top: 0; left: 0; right: 0; background-color: rgba(0,0,0,0.2); }
+.baf #bumper { display: block; height: 100%; width: 100%; }
+.baf header .container-fluid { height: 100%; width: 100%; }
+.baf .intro-heading {
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+.intro-sect {
+    background-color: black;
+}
+.baf .intro-text {
+    color: #fff;
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 0;
+    background-color: green;
+}
+.baf #links { text-align: center; background: black; padding: 20px; }
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+/*section#partners { background: #fff; color: #333; }*/
+
+section {
+    background: #231f20;
+}
+
+style {
+  background-color: #231f20
+}
+
+.embed-container {
+    position: relative; height: 90%; max-width: 100%;
+    text-align: center; margin-left: auto; margin-right: auto;
+}
+
+.baf .captiontext {
+  text-transform: uppercase;
+  color: white; /*font color */
+  font-family: "Cabrito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
+               1px -1px 0 #000, -1px  1px 0 #000,
+               1px  1px 0 #000;
+  color: #fff;
+  background:rgba(0,0,0,0.85);
+}
+
+.person-subtitle {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  color: #fff;
+}
+
+.img-partner{
+  position: relative;
+  float: center;
+  width: 300px;
+  height: 300px;
+}
+
+li{
+  color: white;
+  font-size: 100%;  
+}
+
+.pictureRow{
+  display: flex;
+  color: blue;
+}
+
