@@ -1,0 +1,86 @@
+.top{
+    color : black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.linkedin{
+    padding: 10px;
+    padding-left: 0px;
+    size: 200%;
+}
+
+.icon{
+    padding: 10px;
+    size: 5x;
+}
+
+#mainProfilePic{
+    border-radius: 50%;
+    padding: 50px; 
+}
+
+.mainBody{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-half{
+    text-align: center;
+    flex : 1;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-half{
+    flex:1;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mainBottom{
+    padding: 50px;
+}
+
+p.blockOfText{
+    font-size: 20px;
+    text-align: center;
+}
+
+img.resize{
+    width: 75px;
+    height: 75px;
+}
+
+img.profile{
+    padding-right: 900px;
+    border-radius: 50%;
+}
